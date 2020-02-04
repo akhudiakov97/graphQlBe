@@ -1,0 +1,24 @@
+type Customer {
+    id: ID!
+    name: String!
+    age: Int
+    language: String!
+    city: String
+    gender: String
+}
+
+input CustomerInput {
+    name: String!
+    age: Int
+    language: String!
+    city: String
+    gender: String
+}
+
+input UpdateCustomerInput {
+    name: String!
+    age: Int
+    language: String!
+    city: String
+    gender: String
+}

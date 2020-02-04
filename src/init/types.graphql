@@ -1,0 +1,25 @@
+#import "../bus/books/types.graphql"
+#import "../bus/starships/types.graphql"
+#import "../bus/users/types.graphql"
+
+type Query {
+    starships: [Starship!]!
+    books: [Book!]!
+    book(id: ID!): Book
+    users: [User!]!
+    customers: [Customer!]!
+}
+
+type Mutation {
+    addBook(book: BookInput!): Book
+    addCustomer(customer: CustomerInput!): Customer
+    removeBook(id: ID!): Book
+    updateBook(id: ID!, book: UpdateBookInput!): Book
+    signUp(name: String!, email: String!, password: String!): User!
+    login(name: String!, password: String!): User!
+}
+
+type Subscription {
+    userAdded: User!
+    book: Book!
+}
