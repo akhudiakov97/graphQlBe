@@ -18,12 +18,13 @@
   "dependencies": {
     "@babel/runtime": "^7.8.3",
     "apollo-datasource-rest": "^0.6.11",
+    "apollo-server-errors": "latest",
     "apollo-server-express": "^2.9.16",
+    "braces": "^3.0.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "jsonwebtoken": "^8.5.1",
-    "uuid": "^3.4.0",
-    "apollo-server-errors": "latest"
+    "uuid": "^3.4.0"
   }
 }
