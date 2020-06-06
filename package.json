@@ -19,7 +19,7 @@
     "@babel/runtime": "^7.8.3",
     "apollo-datasource-rest": "^0.6.11",
     "apollo-server-errors": "latest",
-    "apollo-server-express": "^2.9.16",
+    "apollo-server-express": "^2.14.2",
     "braces": "^3.0.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
